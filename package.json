@@ -1,0 +1,16 @@
+{
+  "name": "more-component",
+  "repo": "component/more",
+  "description": "Expand and collapse lists",
+  "version": "0.0.1",
+  "keywords": ["list", "expand", "collapse", "limit", "more", "less"],
+  "dependencies": {
+    "classes-component": "*"
+  },
+  "component": {
+    "scripts": {
+      "more/index.js": "index.js"
+    },
+    "styles": ["more.css"]
+  }
+}

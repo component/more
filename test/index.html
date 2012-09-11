@@ -1,0 +1,42 @@
+<link rel="stylesheet" href="../build/build.css"/>
+
+<style>
+  body {
+    padding: 50px;
+    font: 14px Helvetica;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  ul li {
+    padding: 3px 0;
+  }
+  a {
+    color: blue;
+  }
+</style>
+
+<ul>
+  <li>One</li>
+  <li>Two</li>
+  <li>Three</li>
+  <li>Four</li>
+  <li>Five</li>
+  <li>Six</li>
+  <li>Seven</li>
+  <li>Eight</li>
+  <li>Nine</li>
+  <li>Ten</li>
+</ul>
+
+<script src="../build/build.js"></script>
+
+<script>
+  var more = require('more');
+  var list = document.querySelector('ul');
+  list = more(list)
+    .max(5)
+    .render();
+</script>
