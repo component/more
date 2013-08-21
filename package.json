@@ -3,7 +3,14 @@
   "repo": "component/more",
   "description": "Expand and collapse lists",
   "version": "0.0.1",
-  "keywords": ["list", "expand", "collapse", "limit", "more", "less"],
+  "keywords": [
+    "list",
+    "expand",
+    "collapse",
+    "limit",
+    "more",
+    "less"
+  ],
   "dependencies": {
     "classes-component": "*"
   },
@@ -11,6 +18,12 @@
     "scripts": {
       "more/index.js": "index.js"
     },
-    "styles": ["more.css"]
+    "styles": [
+      "more.css"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/component/more.git"
   }
 }
